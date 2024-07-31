@@ -1,0 +1,79 @@
+
+@media screen and (max-width: 885px) {
+
+    #main-hero-section-Part2{
+        margin: 30px 20px 0;
+    }
+}
+
+
+@media (max-width: 780px) {
+
+    ul#nav-bar{
+        display: none;
+    }
+
+    div.hire-me > button{
+        background-color: transparent;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+
+    div.about-me{
+        margin: 0 0 0 10px;
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    div.about-me > span{
+        text-align: center;
+    }
+
+    div > img{
+        margin-right: 12px;
+    }
+}
+
+
+@media screen and (max-width:588px) {
+
+    #main-hero-section-Part2{
+        flex-direction: column-reverse;
+        /* margin: 30px 20px 0; */
+        /* margin-top: 30px; */
+    }
+
+    div > img{
+
+        width: 150px;
+        height: 150px;
+        margin: 0 0 15px;
+        padding: 0;
+    }
+
+    div.about-me > span{
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+
+    div.about-me > p{
+        text-align: center;
+        padding: 0 8px 0 1px;
+    }
+
+    #li-box > li:nth-child(2),
+    #li-box > li:nth-child(3){
+        display: none;
+    }
+
+
+    #li-box > li:nth-child(1),
+    #li-box > li:nth-child(4){
+        width: 20px;
+        height: 20px;
+        border: 0;
+    }
+}
